@@ -1,0 +1,69 @@
+/*#import url(https://cdnjs.cloudlare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js)
+* {
+    font-family: 'Montserrat'
+
+}
+*/
+body {
+    margin: 0 auto;
+}
+
+header.header img{
+    width: 150px;
+}
+
+section.top-page {
+    background: url('../images/pip.jpg');
+    background-size: cover;
+    height:80vh;
+    padding: 25px ;
+}  
+/* page de bienvenue  (landing page) */
+.landing-page{
+    padding: 20px 50px;
+
+}
+
+.big-title {
+    color: white;
+    font-size: 80px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight:100;
+}
+
+.scroll-down {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+     
+}
+/* menu de navigation */
+header.header {
+    display: flex;
+    align-items: center;
+    background-color: green;
+}
+nave.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style : none;
+    background-color: red;
+    width: 400px;
+    margin-left: 30px; 
+}
+
+nav.nav li {
+    color: white;
+}
+
+/* service */
+.services {
+    display: flex;
+}
+
+.delivery-icom {
+    font-size: 50px;
+
+}
+ 
